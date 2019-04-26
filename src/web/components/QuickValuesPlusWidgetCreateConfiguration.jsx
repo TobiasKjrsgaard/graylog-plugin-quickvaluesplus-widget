@@ -45,7 +45,7 @@ const QuickValuesPlusWidgetCreateConfiguration = createReactClass({
                onChange={this.props.onChange}
                help="Modify the number of results in the table."/>
 
-             <label for="quickvaluesplus-sort-order-descending" className="control-label"><span>Sort Order</span></label>
+             <label htmlFor="quickvaluesplus-sort-order-descending" className="control-label"><span>Sort Order</span></label>
           <div className="radio">
               <label>
                   <input key="dataSortOrderDesc"  id="quickvaluesplus-sort-order-descending" type="radio" name="sort_order" value="descending"
