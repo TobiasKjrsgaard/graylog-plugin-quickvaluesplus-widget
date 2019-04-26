@@ -1,9 +1,11 @@
-import React, {PropTypes} from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
+import createReactClass from 'create-react-class';
 import { Input } from 'components/bootstrap';
 
 import { QueryConfiguration } from 'components/widgets/configurations';
 
-const QuickValuesPlusWidgetEditConfiguration = React.createClass({
+const QuickValuesPlusWidgetEditConfiguration = createReactClass({
   propTypes: {
     config: PropTypes.object.isRequired,
     onChange: PropTypes.func.isRequired,

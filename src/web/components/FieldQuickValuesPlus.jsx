@@ -1,4 +1,6 @@
-import React, {PropTypes} from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
+import createReactClass from 'create-react-class';
 import ReactDOM from 'react-dom';
 import {Button, DropdownButton, MenuItem} from 'react-bootstrap';
 import Reflux from 'reflux';
@@ -18,7 +20,7 @@ import style from '!style/useable!css!./FieldQuickValuesPlus.css';
 
 const RefreshStore = StoreProvider.getStore('Refresh');
 
-const FieldQuickValuesPlus = React.createClass({
+const FieldQuickValuesPlus = createReactClass({
     propTypes: {
         permissions: PropTypes.arrayOf(PropTypes.string).isRequired,
         dashboard_id: PropTypes.string,

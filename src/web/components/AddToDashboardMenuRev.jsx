@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import createReactClass from 'create-react-class';
 import Reflux from 'reflux';
 import { ButtonGroup, ButtonToolbar, DropdownButton, MenuItem } from 'react-bootstrap';
 import Immutable from 'immutable';
@@ -17,7 +18,7 @@ import { EditDashboardModal } from 'components/dashboard';
 
 import style from './AddToDashboardMenu.css';
 
-const AddToDashboardMenu = React.createClass({
+const AddToDashboardMenu = createReactClass({
     propTypes: {
         widgetType: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,

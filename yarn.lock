@@ -1484,7 +1484,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1:
+create-react-class@^15.5.1, create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   integrity sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
@@ -2424,7 +2424,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
     "@babel/preset-env" "7.2.3"
     babel-eslint "9.0.0"
     eslint "4.19.1"
-    eslint-config-graylog "file:../../../Library/Caches/Yarn/v4/npm-graylog-web-plugin-3.0.1-c3bcf750-a441-40ba-92a1-e6ec7af2b5fb-1556605667419/node_modules/eslint-config-graylog"
+    eslint-config-graylog "file:../../../Library/Caches/Yarn/v4/npm-graylog-web-plugin-3.0.1-c7036526-23ea-4ed9-a950-203d286e660c-1556605920473/node_modules/eslint-config-graylog"
     html-webpack-plugin "3.2.0"
     javascript-natural-sort "0.7.1"
     jquery "3.3.1"

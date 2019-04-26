@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import React from 'react';
+import createReactClass from 'create-react-class';
 import { Input } from 'components/bootstrap';
 import { Button } from 'react-bootstrap';
 import BootstrapModalForm from 'components/bootstrap/BootstrapModalForm';
@@ -6,10 +8,10 @@ import { IfPermitted, Select } from 'components/common';
 import ObjectUtils from 'util/ObjectUtils';
 import './QuickValuesPlusDefaultConfig.css';
 
-const QuickValuesPlusDefaultConfig = React.createClass({
+const QuickValuesPlusDefaultConfig = createReactClass({
     propTypes: {
-        config: React.PropTypes.object,
-        updateConfig: React.PropTypes.func.isRequired,
+        config: PropTypes.object,
+        updateConfig: PropTypes.func.isRequired,
     },
 
     getDefaultProps() {
