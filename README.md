@@ -80,7 +80,7 @@ To hot reload using Graylog 2.4, your plugin directory should be located two dir
 
 * Clone the Repositories
 ```
-git clone -b "2.4.4" https://github.com/Graylog2/graylog2-server.git
+git clone -b "3.0.1" https://github.com/Graylog2/graylog2-server.git
 git clone https://github.com/billmurrin/graylog-plugin-quickvaluesplus-widget.git
 ```
 
@@ -88,14 +88,14 @@ git clone https://github.com/billmurrin/graylog-plugin-quickvaluesplus-widget.gi
     - If you run `npm start`, it will build the Vendor Manifest for you.
 ```
 cd graylog2-server/graylog2-web-interface
-npm install
+yarn install
 webpack --config webpack.vendor.js
 ```
 
 * Install the `graylog-plugin-quickvaluesplus-widget` node modules
 ```
 cd graylog-plugin-quickvaluesplus-widget
-npm install
+yarn install
 ```
 
 * To develop the plugin with hot-reloading, start the development web server
